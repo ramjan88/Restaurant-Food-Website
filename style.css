@@ -1,0 +1,542 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+#header {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(#000000d1, #1e1c1cde),
+    url(images/nav\ background\ image.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.nav {
+  width: 100%;
+  height: 200px;
+  margin: auto;
+}
+
+.logo {
+  width: 200px;
+  height: 150px;
+  float: left;
+  margin-left: 60px;
+}
+
+.image-logo {
+  display: flex;
+  float: left;
+  width: 200px;
+}
+
+.nav-manu {
+  display: flex;
+  height: 120px;
+  float: right;
+  margin-top: 40px;
+}
+
+.nav-manu ul {
+  display: flex;
+  float: right;
+  margin-right: 150px;
+}
+
+.nav-manu li {
+  list-style-type: none;
+  margin-right: 40px;
+  position: relative;
+}
+
+.nav-manu a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  padding: 10px;
+  transition: 0.5s ease;
+}
+
+.nav-manu .manu1:hover {
+  background-color: white;
+  color: orange;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.nav-manu ul ul {
+  display: block;
+  position: absolute;
+  left: -99999px;
+  top: 20px;
+  width: 150px;
+}
+
+.nav-manu ul ul li {
+  left: 20px;
+  padding: 5px 0;
+  top: 5px;
+  margin-top: -5px;
+  transition: 0.5s ease;
+}
+
+.nav-manu ul ul a {
+  color: white;
+  text-align: center;
+  display: block;
+  background: linear-gradient(#00000026, #8080804d);
+  padding: 5px 0;
+  border-bottom: 1px solid white;
+  transition: 0.5s ease;
+}
+
+.nav-manu ul li:hover ul {
+  left: 0%;
+  padding-top: 0%;
+}
+
+.nav-manu ul ul a:hover {
+  background-color: wheat;
+  color: red;
+}
+
+.head-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.head-content h2 {
+  font-size: 80px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 200px;
+  padding: 8px;
+  background: transparent;
+  color: white;
+  margin-right: 5px;
+  font-size: 17px;
+  border: 1px solid white;
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  background-color: white;
+  color: orange;
+  font-weight: bold;
+}
+
+.pizza-plate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -150px;
+}
+
+.plate {
+  margin-bottom: 150px;
+}
+
+.pizza-plate h2 {
+  font-size: 40px;
+  text-shadow: 5px 5px 10px blue;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.food-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.food {
+  margin: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.food-logo {
+  width: 180px;
+  height: 180px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.food h2 {
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+#speical-dish {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.special-dish-content {
+  margin-right: 50px;
+}
+
+.special-dish-content h2 {
+  font-size: 70px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-top: 40px;
+}
+
+.special-dish-content h2::after {
+  content: "Our Special Dish";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  color: green;
+}
+
+.special-dish-content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.speical-dish-image {
+  margin-left: 100px;
+}
+
+.special-dish-logo {
+  width: 800px;
+  height: 450px;
+}
+
+.popular-content {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.popular-content h2 {
+  text-transform: uppercase;
+}
+
+.popular-con {
+  font-size: 45px;
+  text-shadow: 5px 5px 15px blue;
+}
+
+#Popular-dish {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.dish-image {
+  width: 400px;
+  height: 450px;
+  margin: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.dish-image h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.dish-image p {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.dish-logo {
+  width: 300px;
+  height: 300px;
+}
+
+.dish-prise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.dish-prise h4 {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.btn2 {
+  width: 130px;
+  height: 30px;
+  font-size: 18px;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+
+.btn2:hover {
+  background-color: wheat;
+  color: red;
+  font-weight: bold;
+}
+
+#signature-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 800px;
+  background-color: wheat;
+  margin-top: 100px;
+  margin-bottom: 00px;
+}
+
+.signature-content {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.signature-content h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-shadow: 4px 4px 8px red;
+}
+
+.signature-content p {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.singnature-dish {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.signature-food {
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.signature-image1 {
+  background-image: url(images/cobb\ salad\ .jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 10px;
+}
+
+.signature-food h2 {
+  color: white;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+
+.signature-image2 {
+  background-image: url(images/twinkies.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 10px;
+}
+
+.signature-image3 {
+  background-image: url(images/pot\ rost.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 10px;
+}
+
+.image-content {
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+#restaurant-about {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.resturaunt-image {
+  display: flex;
+  width: 400px;
+  height: 300px;
+  margin-right: 10px;
+}
+
+.restaurant-logo {
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+
+.restaurant-content {
+  width: 400px;
+  height: 300px;
+  padding: 50px 10px 0 10px;
+}
+
+.restaurant-content h2 {
+  font-size: 40px;
+  font-family: "Sofia", sans-serif;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.restaurant-content p {
+  font-size: 17px;
+  text-align: justify;
+  margin-bottom: 20px;
+  line-height: 1.3em;
+}
+
+.restaurant-content .btn3 {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  color: red;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background-color: navy;
+}
+
+.footer-content {
+  margin: auto;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.footer-content h2 {
+  font-size: 45px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  font-size: 17px;
+  color: white;
+}
+
+.form-area {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.form-area input {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.form-area input[type="text"] {
+  width: 500px;
+  height: 70px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 35px;
+  background-color: wheat;
+}
+
+.form-area input[type="submit"] {
+  width: 150px;
+  height: 60px;
+  border: none;
+  outline: none;
+  background-color: red;
+  border-radius: 30px;
+  margin-left: -160px;
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.form-area input[type="submit"]:hover {
+  background-color: gold;
+  color: blueviolet;
+}
+
+.footer-image {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  width: 30px;
+  height: 30px;
+}
