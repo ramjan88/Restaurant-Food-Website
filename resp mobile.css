@@ -1,6 +1,13 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   
+  .nav {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
 
 
 
@@ -12,5 +19,4 @@
 
 
 
-  
 }
