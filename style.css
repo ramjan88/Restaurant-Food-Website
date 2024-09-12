@@ -24,34 +24,37 @@ body {
 }
 
 .logo {
-  width: 200px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+align-items: center;
   height: 150px;
   float: left;
-  margin-left: 60px;
+
 }
 
 .image-logo {
-  display: flex;
   float: left;
   width: 200px;
 }
 
 .nav-manu {
+  width: 80%;
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
   height: 120px;
   float: right;
-  margin-top: 40px;
 }
 
 .nav-manu ul {
   display: flex;
   float: right;
-  margin-right: 150px;
 }
 
 .nav-manu li {
   list-style-type: none;
-  margin-right: 40px;
+padding: 0 25px;
   position: relative;
 }
 
