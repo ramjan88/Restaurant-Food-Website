@@ -148,7 +148,7 @@
   /* -------------------------popular dish section------------------------ */
   #popular-dish-section {
     width: 100%;
-    height: 730px;
+    height: 800px;
   }
   .popular-content {
     margin-bottom: 5%;
@@ -161,7 +161,7 @@
 
   .dish-image {
     width: 30%;
-    height: 350px;
+    height: 380px;
     margin: 1%;
   }
 
@@ -258,14 +258,16 @@
   #restaurant-about {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     width: 100%;
-    height: 500px;
+    height: 600px;
   }
 
   .resturaunt-image {
     width: 80%;
-    height: 40%;
+    height: 250px;
     margin-right: 0px;
+
   }
 
   .restaurant-logo {
@@ -276,8 +278,9 @@
 
   .restaurant-content {
     width: 80%;
-    height: 50%;
-    padding: 30px 10px 0 10px;
+    height: 250px;
+    padding: 0px 0px 0 0px;
+
   }
 
   .restaurant-content h2 {
