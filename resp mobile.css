@@ -1,22 +1,336 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  
-  .nav {
+  /* ---------------------------nav section--------------------------------- */
+
+  #header {
     width: 100%;
-    height: 200px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
+    min-height: 60vh;
   }
 
+  .hidemobile {
+    display: none;
+  }
+  .nav {
+    width: 100%;
+    height: 120px;
+    margin: auto;
+  }
+  .logo {
+    width: 50%;
+    height: 100px;
+  }
 
+  nav {
+    width: 20%;
+  }
 
+  .head-content {
+    margin-top: 10%;
+  }
 
+  .head-content h2 {
+    font-size: 250%;
+    color: white;
+    margin-bottom: 10px;
+  }
 
+  .btn {
+    width: 16%;
+    padding: 1%;
+    margin-right: 1%;
+    font-size: 50%;
+  }
 
+  .btn:hover {
+    font-weight: normal;
+  }
 
+  /* -------------------------food plate item section------------------------ */
 
+  .pizza-plate {
+    margin-top: -15%;
+    width: 100%;
+  }
 
+  .plate {
+    width: 50%;
+    margin-bottom: 20%;
+  }
 
+  .pizza-plate h2 {
+    font-size: 170%;
+  }
 
+  /* -------------------------food item section------------------------ */
+
+  .food-item {
+    flex-direction: column;
+    margin-bottom: 5%;
+    width: 100%;
+    height: 900px;
+  }
+
+  .food {
+    margin: 2% 0;
+    text-align: center;
+    padding: 5px 20px;
+    width: 75%;
+    height: 450px;
+  }
+
+  .food-logo {
+    width: 50%;
+    height: 180px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+  }
+
+  .food h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .food p {
+    font-size: 100%;
+  }
+
+  /* -------------------------speical dish section------------------------ */
+
+  #speical-dish {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 550px;
+    margin-bottom: 15%;
+  }
+
+  .special-dish-content {
+    margin-right: 0px;
+    margin-bottom: 10%;
+  }
+
+  .special-dish-content h2 {
+    font-size: 250%;
+    margin-bottom: 2%;
+    padding-top: 10%;
+  }
+
+  .special-dish-content h2::after {
+    font-size: 50%;
+  }
+
+  .special-dish-content p {
+    font-size: 100%;
+    margin-bottom: 2%;
+  }
+
+  .speical-dish-image {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .special-dish-logo {
+    width: 80%;
+    height: 100%;
+  }
+
+  .btn1 {
+    width: 30%;
+    height: 15%;
+    font-size: 70%;
+    margin-left: 0px;
+  }
+
+  /* -------------------------popular dish section------------------------ */
+  #popular-dish-section {
+    width: 100%;
+    height: 730px;
+  }
+  .popular-content {
+    margin-bottom: 5%;
+  }
+
+  .popular-content h2 {
+    font-size: 200%;
+    padding-top: 4%;
+  }
+
+  .dish-image {
+    width: 30%;
+    height: 350px;
+    margin: 1%;
+  }
+
+  .dish-image h3 {
+    font-size: 150%;
+    margin-bottom: 10px;
+  }
+
+  .dish-image p {
+    font-size: 100%;
+    margin-bottom: 30px;
+  }
+
+  .dish-logo {
+    width: 80%;
+    height: 60%;
+  }
+
+  .dish-prise {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+
+  .dish-prise h4 {
+    font-size: 110%;
+    margin-right: 10px;
+  }
+
+  .btn2 {
+    width: 40%;
+    height: 20px;
+    font-size: 10px;
+  }
+
+  /* -------------------------signature dish section------------------------ */
+
+  #signature-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #e2eaed;
+    margin-top: 100px;
+  }
+
+  .signature-content {
+    width: 100%;
+    height: 20%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+  }
+
+  .signature-content h2 {
+    font-size: 200%;
+    margin-bottom: 2%;
+  }
+
+  .signature-content p {
+    font-size: 90%;
+    line-height: 1.5em;
+  }
+
+  .singnature-dish {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+  }
+
+  .signature-food {
+    width: 100%;
+    height: 450px;
+    background-color: white;
+  }
+
+  .signature-food h2 {
+    color: white;
+    width: 100%;
+    height: 18%;
+  }
+
+  .image-content {
+    margin-top: 2%;
+    padding: 5%;
+    font-size: 110%;
+    line-height: 1.5em;
+  }
+
+  /* -------------------------restaurant about section------------------------ */
+  #restaurant-about {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+  }
+
+  .resturaunt-image {
+    width: 80%;
+    height: 40%;
+    margin-right: 0px;
+  }
+
+  .restaurant-logo {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .restaurant-content {
+    width: 80%;
+    height: 50%;
+    padding: 30px 10px 0 10px;
+  }
+
+  .restaurant-content h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .restaurant-content p {
+    font-size: 17px;
+    text-align: justify;
+    margin-bottom: 10px;
+    line-height: 1.3em;
+  }
+
+  /* -------------------------footer section------------------------ */
+
+  #footer {
+    height: 400px;
+  }
+
+  .footer-content {
+    margin-top: 15%;
+  }
+
+  .footer-content h2 {
+    font-size: 250%;
+    margin-bottom: 10px;
+  }
+
+  .footer-content p {
+    font-size: 110%;
+    margin-bottom: 20px;
+  }
+
+  .form-area {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 15%;
+  }
+
+  .form-area input {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+  }
+
+  .form-area input[type="text"] {
+    width: 80%;
+    height: 50px;
+  }
+
+  .form-area input[type="submit"] {
+    width: 20%;
+    height: 40px;
+    margin-left: -22%;
+  }
 }

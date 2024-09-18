@@ -8,6 +8,8 @@ body {
   background-color: #f0f2f5;
 }
 
+/* ---------------------------nav section-------------------------------- */
+
 #header {
   width: 100%;
   min-height: 100vh;
@@ -27,10 +29,9 @@ body {
   width: 20%;
   display: flex;
   justify-content: center;
-align-items: center;
+  align-items: center;
   height: 150px;
   float: left;
-
 }
 
 .image-logo {
@@ -38,7 +39,7 @@ align-items: center;
   width: 200px;
 }
 
-.nav-manu {
+nav {
   width: 80%;
   display: flex;
   justify-content: flex-end;
@@ -47,18 +48,18 @@ align-items: center;
   float: right;
 }
 
-.nav-manu ul {
+nav ul {
   display: flex;
   float: right;
 }
 
-.nav-manu li {
+nav li {
   list-style-type: none;
-padding: 0 25px;
+  padding: 0 25px;
   position: relative;
 }
 
-.nav-manu a {
+nav a {
   text-decoration: none;
   font-size: 18px;
   color: white;
@@ -66,22 +67,22 @@ padding: 0 25px;
   transition: 0.5s ease;
 }
 
-.nav-manu .manu1:hover {
+nav .manu1:hover {
   background-color: white;
   color: orange;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
 }
 
-.nav-manu ul ul {
+nav ul ul {
   display: block;
   position: absolute;
   left: -99999px;
   top: 20px;
-  width: 150px;
+  width: 120px;
 }
 
-.nav-manu ul ul li {
+nav ul ul li {
   left: 20px;
   padding: 5px 0;
   top: 5px;
@@ -89,7 +90,7 @@ padding: 0 25px;
   transition: 0.5s ease;
 }
 
-.nav-manu ul ul a {
+nav ul ul a {
   color: white;
   text-align: center;
   display: block;
@@ -99,12 +100,12 @@ padding: 0 25px;
   transition: 0.5s ease;
 }
 
-.nav-manu ul li:hover ul {
+nav ul li:hover ul {
   left: 0%;
   padding-top: 0%;
 }
 
-.nav-manu ul ul a:hover {
+nav ul ul a:hover {
   background-color: wheat;
   color: red;
 }
@@ -148,6 +149,8 @@ padding: 0 25px;
   font-weight: bold;
 }
 
+/* -------------------------food plate item section------------------------ */
+
 .pizza-plate {
   display: flex;
   flex-direction: column;
@@ -158,6 +161,7 @@ padding: 0 25px;
 
 .plate {
   margin-bottom: 150px;
+  filter: drop-shadow(1px 7px 10px orange);
 }
 
 .pizza-plate h2 {
@@ -167,11 +171,15 @@ padding: 0 25px;
   text-transform: uppercase;
 }
 
+/* -------------------------food item section------------------------ */
+
 .food-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 150px;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 50px;
 }
 
 .food {
@@ -193,6 +201,8 @@ padding: 0 25px;
   font-size: 27px;
   margin-bottom: 10px;
 }
+
+/* -------------------------speical dish section------------------------ */
 
 #speical-dish {
   display: flex;
@@ -238,22 +248,56 @@ padding: 0 25px;
   height: 450px;
 }
 
+.btn1 {
+  width: 130px;
+  height: 30px;
+  font-size: 18px;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+
+.btn1:hover {
+  background-color: wheat;
+  color: red;
+  font-weight: bold;
+}
+
+/* -------------------------popular dish section------------------------ */
+#popular-dish-section {
+  width: 100%;
+  height: 1100px;
+}
+
 .popular-content {
   width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
 }
 
 .popular-content h2 {
   text-transform: uppercase;
-}
-
-.popular-con {
   font-size: 45px;
   text-shadow: 5px 5px 15px blue;
+  position: relative;
+  padding-top: 3%;
 }
 
-#Popular-dish {
+.popular-content h2::before {
+  content: "Our Chicken";
+  position: absolute;
+  top: 0;
+  left: 25%;
+  font-size: 60%;
+  color: red;
+}
+
+.Popular-dish {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -315,14 +359,14 @@ padding: 0 25px;
   font-weight: bold;
 }
 
+/* -------------------------signature dish section------------------------ */
+
 #signature-section {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 800px;
   background-color: wheat;
-  margin-top: 100px;
-  margin-bottom: 00px;
 }
 
 .signature-content {
@@ -413,6 +457,8 @@ padding: 0 25px;
   line-height: 1.5em;
 }
 
+/* -------------------------restaurant about section------------------------ */
+
 #restaurant-about {
   display: flex;
   width: 100%;
@@ -461,6 +507,8 @@ padding: 0 25px;
   font-weight: bold;
   color: red;
 }
+
+/* -------------------------footer section------------------------ */
 
 #footer {
   display: flex;
