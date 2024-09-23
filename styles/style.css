@@ -14,7 +14,7 @@ body {
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(#000000d1, #1e1c1cde),
-    url(/images/nav\ background\ image.jpg);
+    url(images/nav\ background\ image.jpg);
   background-position: center;
   background-size: cover;
 }
