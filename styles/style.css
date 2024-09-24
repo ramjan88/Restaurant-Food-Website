@@ -14,7 +14,7 @@ body {
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(#000000d1, #1e1c1cde),
-    url('/images/header\ image.jpg');
+    url('../images/header\ image.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -406,7 +406,7 @@ nav ul ul a:hover {
 }
 
 .signature-image1 {
-  background-image: url(/images/cobb\ salad\ .jpg);
+  background-image: url(../images/cobb\ salad\ .jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -429,7 +429,7 @@ nav ul ul a:hover {
 }
 
 .signature-image2 {
-  background-image: url(/images/twinkies.jpg);
+  background-image: url(../images/twinkies.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -440,7 +440,7 @@ nav ul ul a:hover {
 }
 
 .signature-image3 {
-  background-image: url(/images/pot\ rost.jpg);
+  background-image: url(../images/pot\ rost.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
